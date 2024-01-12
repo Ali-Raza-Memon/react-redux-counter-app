@@ -13,7 +13,7 @@ const App = () => {
   }
 
   const addByTen = ()=>{
-    dispatch({type:"AddByTen"});
+    dispatch({type:"AddByTen",payload:10});
   }
 
 
